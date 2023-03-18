@@ -1,0 +1,170 @@
+*{
+	padding:0;
+	margin:0;
+}
+.body-part{
+	width:100%;
+}
+.left-side{
+	width:27%;
+	float:left;
+	background:#9e9e9e3d;
+	height:890px;
+}
+.menu-side:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.middle-side{
+	width:35%;
+	float:left;
+}
+.img-part{
+	width:38%;
+	float:right;
+}
+.profile img{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	border:1px solid #607d8bc2;
+	margin:50px auto;
+	display:block;
+}
+.profile h1{
+	font-size: 30px;
+    font-family: system-ui;
+    text-align: center;
+    color: #2C3A47;
+    margin-top: -40px;
+	text-transform:uppercase;
+}
+.profile p{
+	text-align:center;
+	font-family: system-ui;
+	color: #59646a;
+	font-size: 20px;
+	text-decoration:underline;
+}
+.menu-side ul{
+	text-align: center;
+    margin: 40px 20px;
+    list-style: none;
+}
+.menu-side ul li a{
+	text-decoration: none;
+    padding: 5px 0px;
+    display: block;
+    font-size: 18px;
+    font-family: monospace;
+    text-transform: uppercase;
+    color: #4c3909;
+    letter-spacing: 2px;
+}
+.menu-side ul li a:hover{
+	text-decoration:underline;
+	color:#bb890a;
+}
+.bottom-part h4{
+	text-align: center;
+    color: #5b5e43;
+    line-height: 25px;
+}
+.middle-side .txt-part{
+	margin:208px 50px;
+}
+.middle-side .txt-part h1{
+	font-size:65px;
+}
+.middle-side .txt-part p{
+	color: #2C3A47;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.middle-side .txt-part input{
+	background: transparent;
+    padding: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 5px;
+	margin: 20px 0px;
+}
+.img-part img{
+	margin-top: 55px;
+    width: 500px;
+    height: 800px;
+	margin-left:-30px;
+}
+.menu-side .home a{
+	text-decoration:underline;
+	color:#bb890a;
+}
+.txt-part a{
+	color:#bb890a;
+}
+.profile a{
+	color:#bb890a;
+}
+.bottom-part span{
+	color:#bb890a;
+	cursor:pointer;
+	text-decoration:underline;
+}
+.header-part{
+	width:90%;
+	margin:auto;
+}
+.logo-area{
+	width:20%;
+	float:left;
+}
+.header-part:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.menu-area{
+	width:75%;
+	float:right;
+}
+.menu-area ul li{
+	float:left;
+	list-style:none;
+	margin:15px;
+}
+.menu-area ul:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.menu-area ul li a{
+	text-decoration: none;
+    font-size: 18px;
+    color: #616161;
+    font-family: system-ui;
+}
+hr{
+	border-width: 1px;
+}
+.menu-area ul li a:hover{
+	color:#bb890a;
+}
+.menu-area .fa{
+	margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
